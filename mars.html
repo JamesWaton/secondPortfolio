@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mars Weather website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="mars.html">Mars Weather Website</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Mars Weather Website </h2>
+								<p>HTML, CSS, JavaScript, NASA API</p>
+                                <a href="https://jameswaton.github.io/MarsWeather/" target="_blank" title="GitHub" class="btn contact-details "><i class="fas fa-tools"></i> Code</a>  
+								<a href="https://github.com/JamesWaton/MarsWeather" target="_blank" title="Website" class="btn contact-details "><i class="fab fa-chrome"></i> Website</a>
+                                <a href="#video" class="btn contact-details ">Preview</a>
+                                
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<h3 class="major">Brief summary of my Mars Weather Widget.</h3>
+									<p>I made this for desktop first as I was primarily just trying to learn about how to fetch a Json API response and place the data in the desired spot of the HTML File. Although I have now updated this to be mobile friendly and now made this the final version. Within this project I have learnt a variety of new skills with not only achieving my primary task of learning how to place the data in a desired format but also learning how to make the wind dial change with the data given making the effect where the arrow is pointing e.g north, east south or west. I also learnt how to use sass in a more in depth way and how using firefox while creating the websites interface can be extremely more so than using chrome..</p>
+                                       
+                                     <br>                          								
+									 
+
+                                   <p>To start off the project I had to first make the layout what was all done in SASS then mapped to CSS with the basic features made in HTML. With this a template was made of the data and how I wanted it to look like, as the mapping the Json file was going to be saved for last. With this part of the project I followed Kevin Powell and his video on how he designed a weather app that you can find on his youtube channel. As through this I was able to learn about how to use SASS in a more indepth level. One of the main points I got out of this video is how to utilize grid layouts and how using FireFox can be extremely useful when designing with grids. Using the inspector tool in the web browser allows you to see a display of the highlighted grids which will show you where they all are and allow you to see what area needs editing to the right extent.</p> <br>
+
+                                     <br>
+                                    
+
+                              	<p>The most difficult part of making the CSS display was creating the Wind display, toggle for the celsius to fahrenheit. For the wind toggle I used a website called https://bennettfeely.com/clippy/ to create the shape. While also working with grids with firefox to fit everything in place what at first was quite difficult but it became extremely easy and useful to use as this is what I spent most of the time working with to create the display.</p><br>
+                                     <br>
+                                 
+
+                              	<p>Once having the CSS and HTML set up ready for the Json data response to be implemented it was time to sign up and get the api key from NASA. Once I had connected the api key to my code and got a json response the main problem I encountered was having a limit of 8 API calls per day so it left very little room for error. To help me through this process I followed a youtube video by web dev simplified what you can find on his channel. This taught myself how to change the arrow to what way the wind was going depending on the given data. With the using the function metricRadio and imperialRadio to change between fahrenheit and celsius when clicking on the conversion toggle. While also creating the function that does the conversions starting at line 125 index.js.</p>
+                                    
+                                     <br>
+                              
+
+                              	<p>Through this project I have gained a greater understanding of how to implement API json responses into a web page and how to use it to not only display the text I want but also move items on the page depending on the data it is given. While also learning how to write functions that will convert Imperial code to metric and implementing that to a toggle on the page. ALthough I have learnt many other new techniks these are the ones that stood out to me.</p>
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+                <article id="video" align="center"> <video width="950" height="650" controls>
+                                <source src="images/PhoneShopVid.mp4" type="video/mp4">
+                                
+                                No video support.
+                                </video>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            
+                            </article>
+                        
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
